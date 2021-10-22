@@ -1,0 +1,8 @@
+p	to get the public key;
+k	return decrypted check key;
+g	get public key of a user; "g"+id(length=8)+public key(length=216)
+m	encrypted message, include 8-byte target;
+
+message format: see MessagePackup.packup();
+"m" + target id(length=8) + my publicKey(length=216) + AESkey after RSA(length=128) + message after AES
+message end with "@"
