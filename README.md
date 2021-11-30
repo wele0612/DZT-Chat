@@ -22,10 +22,10 @@ The server is only responsible for helping the client located on the intranet to
 The user enters the RSA private key to obtain the user name and make the connection
 
 * Does the client come with a GUI?
-    - No. It comes with a simple GUI with operation tips.
+    - YES. It comes with a simple GUI with operation tips.
 * How do I register my account?
     - No registration is required. The project includes an RSA key generator, just fill in the client gui after you generate it. The user name will be generated according to your secret key using hash algorithm.
 * How to recover the RSA key?
     - There is no way to recover it. So remember to save it.
 * What does __DZT__ stand for?
-    - I can't remember. It might be an abbreviation for something like Distribute.
+    - It might be an abbreviation for something like Distribute.
