@@ -1,4 +1,4 @@
-# DZT-Chat
+# DZT-Private-Chat
 DZT实时加密聊天
 
 简单的基于Java的 __端对端加密__ 即时通讯工具。
